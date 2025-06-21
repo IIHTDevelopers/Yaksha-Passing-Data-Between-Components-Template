@@ -6,4 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./user-profile.component.css']
 })
 export class UserProfileComponent {
+  user = {
+    name: 'John Doe',
+    email: 'john.doe@example.com',
+    bio: 'Software Developer'
+  };
+
+  onSave(updatedUser: any) {
+  }
 }
