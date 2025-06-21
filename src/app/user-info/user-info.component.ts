@@ -6,5 +6,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./user-info.component.css']
 })
 export class UserInfoComponent {
-  
+  isEditing: boolean = false;
+  editedUser: any;
+  user: any;
 }
